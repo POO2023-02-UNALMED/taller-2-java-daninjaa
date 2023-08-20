@@ -21,7 +21,7 @@ int cantidadAsientos()
 			
 		}
 	
-	String verificarIntegridad(Motor numMotor, Asiento numAsiento, Auto numAuto) {
+	String verificarIntegridad() {
 		if (numMotor.registro != numAsiento.registro && numAsiento.registro != numAuto.registro) {
 			return "Las piezas no son originales";
 		}
