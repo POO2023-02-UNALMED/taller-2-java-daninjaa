@@ -22,7 +22,7 @@ public class Auto {
 
 		for (int i = 0; i < this.asientos.length; i++) {
 
-			if (asientos[i] != null) {
+			if (this.asientos[i] != null) {
 	
 				contador ++;
 
