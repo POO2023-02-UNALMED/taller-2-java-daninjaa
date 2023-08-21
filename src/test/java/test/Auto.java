@@ -20,9 +20,9 @@ public class Auto {
 
 		int contador = 0;
 
-		for (int i = 0; i < asientos.length; i++) {
+		for (int i = 0; i < this.asientos.length; i++) {
 
-			if (asientos[i] != null) {
+			if (this.asientos[i] instanceof Asiento && this.asientos[i] != null) {
 	
 				contador ++;
 
