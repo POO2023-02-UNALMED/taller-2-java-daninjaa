@@ -38,6 +38,8 @@ public class Auto {
 	String verificarIntegridad(){
 	
 		for (int i = 0; i < this.asientos.length; i++) {
+			
+			if (this.asientos[i] != null) {
 	
 				if (this.asientos[i].registro != this.registro) {
 	
@@ -45,6 +47,7 @@ public class Auto {
 	
 				}
 	
+			}
 		}
 	
 		if (this.registro != this.motor.registro) {
