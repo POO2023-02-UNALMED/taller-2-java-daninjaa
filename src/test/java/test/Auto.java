@@ -16,7 +16,7 @@ public class Auto {
 
 	static int cantidadCreados;
 	
-	int contarAsientos(){
+	int cantidadAsientos(){
 
 		int contador = 0;
 
